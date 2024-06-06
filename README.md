@@ -16,3 +16,5 @@ For Users:
 - Access Recent Reads: Quickly find and continue reading books you have recently accessed.
 - Edit Profile: Update your user profile information to keep it current.
 - Read Books: Enjoy reading books directly within the application.
+
+**Please note that this project still under development 80%**
