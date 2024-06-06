@@ -1,0 +1,92 @@
+body{
+    background-image: url(../images/login.jpg);
+    background-position: 50% 20%;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: 110px;
+    }
+    
+    .login-container {
+    background-color: #f0cc78;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    }
+    
+    .logo-and-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .logo-and-title img {
+      width: 60px;
+      margin-left: 5px;
+    }
+    
+    .login-container h2 {
+      margin: 0;
+    }
+    
+    .login-container h3 {
+        margin-right: 220px;
+    }
+    
+    
+    .input-group {
+    margin-bottom: 20px;
+    }
+    
+    .input-group label {
+    text-align: left;
+    display: block;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    }
+    
+    .input-group input[type="text"],
+    .input-group input[type="date"],
+    .input-group input[type="email"] {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-family: Arial, sans-serif; /* Match the font family */
+        color: #555;
+    }
+
+    .input-group input[type="password"],
+    .input-group input[type="password2"] {
+      width: 80%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+      border-radius: 5px;
+      font-family: Arial, sans-serif; /* Match the font family */
+      color: #555;
+    }
+
+    .login-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    .login-container button:hover {
+    background-color: #45a049;
+    }
