@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Bit-Lib</title>
+    <link rel="stylesheet" href="../../lib/css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i>
+        <img src="../images/books.png" alt=""></i>Bit-Library
+      </div>
+
+      <div class="search_bar">
+        <input type="text" placeholder="Search" />
+      </div>
+
+      <div class="navbar_content">
+        <i class="bi bi-grid"></i>
+        <i class='bx bx-sun' id="darkLight"></i>
+        <div class="notification-dropdown">
+          <i class='bx bx-bell'></i>
+          <div class="dropdown-content">
+            <p>Books to return soon:</p>
+            <ul>
+              <li>1. Napoleon</li>
+              <li>2. Gray's Anatomy</li>
+              <li>3. Dark Psychology</li>
+            </ul>
+          </div>
+        </div>
+        <div class="profile-dropdown">
+          <img src="../images/user.png" alt="" class="profile" />
+          <div class="dropdown-content">
+            <a href="../profile.php">Profile</a>
+            <a href="../index.php">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+        <div class="menu_content">
+          <ul class="menu_items">
+            <div class="menu_title menu_dahsboard"></div>
+            <a href="../home.html" class="nav_link">
+                <span class="navlink_icon">
+                  <i class="bx bx-home-alt"></i>
+                </span>
+                <span class="navlink">Home</span>
+            </a>
+          </ul>
+
+        <ul class="menu_items">
+          <div class="menu_title menu_editor"></div>
+          <li class="item">
+            <a href="../reader.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-book-open"></i>
+              </span>
+              <span class="navlink">Reader Mode</span>
+            </a>
+          </li>
+
+          <li class="item">
+            <a href="../lib.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-library"></i>
+              </span>
+              <span class="navlink">My Library</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="../fav.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-bookmarks"></i>
+              </span>
+              <span class="navlink">Favourite</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="menu_items">
+          <div class="menu_title menu_setting"></div>
+          <li class="item">
+            <a href="../news.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-flag"></i>
+              </span>
+              <span class="navlink">Notice board</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="../profile.php" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-cog"></i>
+              </span>
+              <span class="navlink">Settings</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="bottom_content">
+          <div class="bottom expand_sidebar">
+            <span> Expand</span>
+            <i class='bx bx-log-in' ></i>
+          </div>
+          <div class="bottom collapse_sidebar">
+            <span> Collapse</span>
+            <i class='bx bx-log-out'></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="cat-container">
+      <div class="cat-title">
+              <h3>SOCIAL SCIENCES</h3>
+      </div>
+  </div>
+    <div class="book-container">
+        <div class="book-cover">
+          <a href="../form.php?bookName=Political%20Science">
+            <img src="../images/book13_cover.jpg" alt="Book Cover 1">
+          </a>
+            <div class="book-details">
+                <h2>Title: Political Science</h2>
+                <p>Author: Ann Hosein</p>
+            </div>
+        </div>
+
+        <div class="book-cover">
+          <a href="../form.php?bookName=Dark%20Psychology">
+            <img src="../images/book14_cover.jpg" alt="Book Cover 2">
+          </a>
+            <div class="book-details">
+                <h2>Title: Dark Psychology</h2>
+                <p>Author: Jonathan Mind</p>
+            </div>
+        </div>
+
+        <div class="book-cover">
+          <a href="../form.php?bookName=Book%20of%20Economics">
+            <img src="../images/book15_cover.jpg" alt="Book Cover 3">
+          </a>
+            <div class="book-details">
+                <h2>Title: Book of Economics</h2>
+                <p>Author: Nabila Ahmad</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../script.js"></script>
+  </body>
+</html>
