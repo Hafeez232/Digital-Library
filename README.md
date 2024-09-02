@@ -17,4 +17,14 @@ For Users:
 - Edit Profile: Update your user profile information to keep it current.
 - Read Books: Enjoy reading books directly within the application.
 
-**Please note that this project still under development 80%**
+**Please note that this project still under development 90%**
+
+**(Homepage)**
+![image](https://github.com/user-attachments/assets/722e34a7-2907-4dac-9eda-3087ded0c80a)
+
+**(My Library)**
+![image](https://github.com/user-attachments/assets/78c610eb-c12e-4f28-b21f-4e16d46b23d4)
+
+**(Reader Mode)**
+![image](https://github.com/user-attachments/assets/9f0122f8-2908-486d-ac79-da9e906d8317)
+
